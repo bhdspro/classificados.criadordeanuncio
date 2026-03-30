@@ -154,7 +154,7 @@
         </div>
 
         <!-- Toast de Notificação (Avaliações Google) -->
-        <div id="review-toast" class="fixed top-24 right-4 z-50 transform translate-x-[120%] opacity-0 transition-all duration-500 bg-white border border-gray-100 shadow-xl rounded-xl p-3 sm:p-4 max-w-[90%] sm:max-w-sm flex items-start gap-3 pointer-events-none">
+        <div id="review-toast" class="fixed top-24 left-14 z-50 transform translate-x-[120%] opacity-0 transition-all duration-500 bg-white border border-gray-100 shadow-xl rounded-xl p-3 sm:p-4 max-w-[90%] sm:max-w-sm flex items-start gap-3 pointer-events-none">
             <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center shrink-0">
                 <span class="font-bold text-lg" id="toast-initial">G</span>
             </div>
@@ -376,7 +376,7 @@
                     <div class="group relative overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 aspect-[4/5] bg-gray-200 border border-gray-100">
                         
                         <!-- Prova Social Badge (Visualizações) com efeito de sumir no hover -->
-                        <div class="absolute top-8 left-16 z-20 bg-black/70 backdrop-blur-md text-white text-[11px] sm:text-xs font-semibold px-3 py-2 rounded-full flex items-center gap-1.5 shadow-lg transition-opacity duration-300 group-hover:opacity-0">
+                        <div class="absolute top-10 left-16 z-20 bg-black/70 backdrop-blur-md text-white text-[11px] sm:text-xs font-semibold px-3 py-2 rounded-full flex items-center gap-1.5 shadow-lg transition-opacity duration-300 group-hover:opacity-0">
                             <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
                             <span id="view-count-${anuncio.id_pasta}" class="transition-colors duration-300 inline-block">${visualizacoes}</span> visualizações
                         </div>
